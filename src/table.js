@@ -1,11 +1,10 @@
 import React from "react";
 import { makeData, Logo, Tips } from "./utils";
 
-// Import React Table
 import ReactTable from "react-table";
-//import "react-table/react-table.css";
+import "react-table/react-table.css";
 
-export default class App extends React.Component {
+export default class Table extends React.Component {
   constructor() {
     super();
     this.state = {
